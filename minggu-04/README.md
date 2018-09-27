@@ -20,4 +20,9 @@
     untuk memberikan contoh keputusan desain yang terlibat, kita sering perlu memutuskan sejauhmana tabel harus di normalkan
     namun proliferasi tabel yang lebih kecil juga berarti bahwa pelacakan hubungan data membuthkan ketekunan yang lebih.
     
+## Pengukuran Data Historis   
+    keuntungan lain yang penting dari menggunakan data temp sebagai kunci partisi adalah kemudahan pengukuran data, ketika pipa 
+    ETL dibangun itu menghitung matrik dan dimensi di depan, bukan kebelakang. seringkali kita mungkin ingin meninjau kembali
+    Tren dan gerakan Historis.
+    
     
