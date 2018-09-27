@@ -13,3 +13,12 @@ Bagian III akan menjadi pos terakhir dari seri ini, di mana saya akan menjelaska
 ## Pekerjaan Industri Pertama Saya keluar dari Sekolah Pascasarjana
 Tepat setelah lulus sekolah, saya dipekerjakan sebagai ilmuwan data pertama di startup kecil yang berafiliasi dengan Washington Post. Dengan aspirasi tanpa akhir, saya yakin bahwa saya akan diberikan data analisis siap untuk mengatasi masalah bisnis yang paling mendesak menggunakan teknik yang paling canggih.
 Tidak lama setelah saya memulai pekerjaan saya, saya belajar bahwa tanggung jawab utama saya tidak secemerlang seperti yang saya bayangkan. Sebaliknya, pekerjaan saya jauh lebih mendasar - untuk mempertahankan jalur pipa kritis untuk melacak berapa banyak pengguna yang mengunjungi situs kami, berapa banyak waktu yang dihabiskan pembaca untuk membaca konten, dan seberapa sering orang menyukai atau me-retweet artikel. Itu tentu saja pekerjaan penting, karena kami menyampaikan wawasan pembaca kepada penerbit afiliasi kami dengan imbalan konten berkualitas tinggi secara gratis.
+
+## Hirarki Analytics
+Di antara banyak advokat yang menunjukkan perbedaan antara aspek penggilingan sains data dan penggambaran renyah yang kadang-kadang digambarkan media, saya sangat menikmati panggilan Monica Rogati, di mana dia memperingatkan terhadap perusahaan yang ingin mengadopsi.
+
+## Membangun Data Foundations & Warehouse
+Terlepas dari tujuan atau tingkat minat Anda dalam mempelajari teknik data, penting untuk mengetahui dengan pasti apa itu rekayasa data. Maxime Beauchemin, penulis asli Airflow, mengkarakteristikan rekayasa data dalam postnya yang fantastis, The Rise of Data Engineer:
+
+## ETL: Extract, Transform, and Load
+Semua contoh yang kami rujuk di atas mengikuti pola umum yang dikenal sebagai ETL, yang merupakan singkatan dari Extract, Transform, dan Load. Ketiga langkah konseptual ini adalah bagaimana kebanyakan saluran pipa data dirancang dan distrukturkan. Mereka berfungsi sebagai cetak biru untuk bagaimana data mentah diubah menjadi data analisis siap. Untuk memahami alur ini secara lebih konkret, saya menemukan gambar berikut dari blog rekayasa Robinhood sangat berguna:
