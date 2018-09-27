@@ -25,4 +25,15 @@
     ETL dibangun itu menghitung matrik dan dimensi di depan, bukan kebelakang. seringkali kita mungkin ingin meninjau kembali
     Tren dan gerakan Historis.
     
+## Menentukan Grafik Acyclic Sutradara (DAG)
+    Seperti yang kami sebutkan di posting sebelumnya, setiap pekerjaan ETL, pada intinya, dibangun di atas
+    tiga blok bangunan: Extract,Transform, dan Load. Sesederhana mungkin terdengar konseptual, pekerjaan ETL
+    dalam kehidupan nyata seringkali kompleks, yang terdiri dari banyak kombinasi tugas E, T, dan L. Akibatnya,
+    seringkali berguna untuk memvisualisasikan aliran data kompleks menggunakan grafik. Secara visual, simpul 
+    dalam grafik mewakili tugas, dan panah menunjukkan ketergantungan satu tugas pada tugas lainnya.Mengingat
+    bahwa data hanya perlu dihitung satu kali pada tugas yang diberikan dan perhitungannya kemudian diteruskan, 
+    grafik diarahkan dan asiklik. Inilah sebabnya mengapa pekerjaan Airflow sering disebut 
+    sebagai "DAGs" (Directed Acyclic Graphs).
     
+## ETL Best Practices To Follow   
+   Seperti halnya kerajinan apapun, menulis pekerjaan Aliran Udara yang ringkas, mudah dibaca, dan terukur membutuhkan latihan. Pada pekerjaan pertama saya, ETL kepada saya hanyalah serangkaian tugas mekanis biasa yang harus saya selesaikan. Saya tidak melihatnya sebagai kerajinan atau saya tidak tahu praktik terbaik. Di Airbnb, saya belajar banyak tentang praktik terbaik dan saya mulai menghargai ETL yang baik dan betapa indahnya mereka. Di bawah ini, saya daftar daftar prinsip yang tidak lengkap yang harus dipatuhi oleh saluran pipa ETL yang baik:
