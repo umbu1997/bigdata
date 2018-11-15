@@ -35,3 +35,10 @@ pip3 instal jupyter
 (Gunakan pip jika menggunakan legacy Python 2.)
 
 Selamat. Anda telah menginstal Notebook Jupyter. Lihat Menjalankan Notebook untuk detail lebih lanjut.
+
+# 4. Bagaimana cara menggunakan Jupyter untuk interactive computing di Python?
+1. Jalankan jupyter dengan perintah :
+jupyter notebook
+2. Jupyter akan berjalan di browser localhost
+3. Pilih "new" kemudian pilih "python3" untuk membuka notebook baru guna untuk menjalankan source code python.
+4. Kita dapat menjalankan source code python yang kita inginkan.
