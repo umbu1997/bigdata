@@ -41,3 +41,22 @@ A	B	C	D
 2013-01-04	0.355054	0.300695	-0.926397	1.703721
 2013-01-05	-0.759857	0.366894	-1.023559	0.070350
 2013-01-06	-1.370062	1.064458	0.188206	-0.977349
+
+Membuat DataFrame dengan melewatkan sebuah objek yang dapat dikonversi menjadi series-like.
+
+df2 = pd.DataFrame({ 'A' : 1.,
+                    'B' : pd.Timestamp('20130102'),
+                    'C' : pd.Series(1,index=list(range(4)),dtype='float32'),
+                    'D' : np.array([3] * 4,dtype='int32'),
+                    'E' : pd.Categorical(["test","train","test","train"]),
+                    'F' : 'foo' })
+
+df2
+df2.dtypes
+A           float64
+B    datetime64[ns]
+C           float32
+D             int32
+E          category
+F            object
+dtype: object
