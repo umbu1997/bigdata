@@ -1,4 +1,4 @@
-#10 Minutes to Pandas
+## 10 Minutes to Pandas
 
 Impor modul modul yang dibutuhkan
 
@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-##Pembuatan Objek
+## Pembuatan Objek
 Membuat Series dengan memberikan daftar nilai, membiarkan pandas membuat indeks bilangan bulat default:
 
 s = pd.Series([1,3,5,np.nan,6,8])
