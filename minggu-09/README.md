@@ -1,7 +1,8 @@
 
-# Apa itu Jupyter
-# fungsi jupyter
-# instalasi jupyter
+# 1. Apa itu Jupyter
+ Jupyter ini boleh dibilang editor dalam bentuk web aplikasi di localhost komputer kita dan banyak yang bisa dilakukan. Seperti untuk menulis kode Python, equations, visualisasi dan bisa juga sebagai Markdown editor.
+# 2. fungsi jupyter
+# 3. instalasi jupyter
 
 Memasang Jupyter menggunakan Anaconda dan conda
 Untuk pengguna baru, kami sangat menyarankan menginstal Anaconda. Anaconda dengan mudah menginstal Python, Notebook Jupyter, dan paket lain yang biasa digunakan untuk komputasi ilmiah dan ilmu data.
